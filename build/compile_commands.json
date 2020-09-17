@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/codespace/workspace/InheritanceLecture/build",
+  "command": "/usr/bin/g++-6     -g   -o CMakeFiles/InheritanceLecture.dir/main.cpp.o -c /home/codespace/workspace/InheritanceLecture/main.cpp",
+  "file": "/home/codespace/workspace/InheritanceLecture/main.cpp"
+},
+{
+  "directory": "/home/codespace/workspace/InheritanceLecture/build",
+  "command": "/usr/bin/g++-6     -g   -o CMakeFiles/InheritanceLecture.dir/Person.cpp.o -c /home/codespace/workspace/InheritanceLecture/Person.cpp",
+  "file": "/home/codespace/workspace/InheritanceLecture/Person.cpp"
+},
+{
+  "directory": "/home/codespace/workspace/InheritanceLecture/build",
+  "command": "/usr/bin/g++-6     -g   -o CMakeFiles/InheritanceLecture.dir/Student.cpp.o -c /home/codespace/workspace/InheritanceLecture/Student.cpp",
+  "file": "/home/codespace/workspace/InheritanceLecture/Student.cpp"
+}
+]

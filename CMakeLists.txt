@@ -1,6 +1,11 @@
-cmake_minimum_required(VERSION 3.15)
-project(InheritanceLecture)
+cmake_minimum_required(VERSION 3.0.0)
+project(InheritanceLecture VERSION 0.1.0)
 
-set(CMAKE_CXX_STANDARD 14)
+include(CTest)
+enable_testing()
 
-add_executable(InheritanceLecture main.cpp Person.cpp Person.h Student.cpp Student.h)
+add_executable(InheritanceLecture main.cpp Person.cpp Student.cpp)
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)

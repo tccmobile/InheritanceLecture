@@ -6,7 +6,7 @@
 #define INHERITANCELECTURE_STUDENT_H
 
 
-#include "Person.h"
+#include "Person.hpp"
 
 class Student: public Person {
 private:

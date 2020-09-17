@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/codespace/workspace/InheritanceLecture/Person.cpp
+Person.hpp
+/home/codespace/workspace/InheritanceLecture/Person.hpp
+iostream
+-
+
+/home/codespace/workspace/InheritanceLecture/Person.hpp
+string
+-
+
+/home/codespace/workspace/InheritanceLecture/Student.cpp
+Student.hpp
+/home/codespace/workspace/InheritanceLecture/Student.hpp
+iostream
+-
+
+/home/codespace/workspace/InheritanceLecture/Student.hpp
+Person.hpp
+/home/codespace/workspace/InheritanceLecture/Person.hpp
+
+/home/codespace/workspace/InheritanceLecture/main.cpp
+iostream
+-
+Student.hpp
+/home/codespace/workspace/InheritanceLecture/Student.hpp
+Person.hpp
+/home/codespace/workspace/InheritanceLecture/Person.hpp
+

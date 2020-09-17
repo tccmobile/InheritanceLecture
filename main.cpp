@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-#include "Student.h"
-#include "Person.h"
+#include "Student.hpp"
+#include "Person.hpp"
 
 int main() {
 
@@ -21,6 +21,7 @@ int main() {
     three.setName("Carl");
     three.setAge(52);
     three.setGpa(3.5);
+    
     cout<<"\n"<<three.getName()<<" "<<three.getAge()<<" "<<three.getGpa()<<endl;
 
     Student four("Mary", 32, 4.0);

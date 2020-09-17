@@ -1,0 +1,1 @@
+/usr/bin/g++-6   -g   CMakeFiles/InheritanceLecture.dir/main.cpp.o CMakeFiles/InheritanceLecture.dir/Person.cpp.o CMakeFiles/InheritanceLecture.dir/Student.cpp.o  -o InheritanceLecture -rdynamic 

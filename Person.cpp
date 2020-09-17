@@ -2,7 +2,7 @@
 // Created by William Smith on 4/14/20.
 //
 
-#include "Person.h"
+#include "Person.hpp"
 #include <iostream>
 using namespace std;
 
